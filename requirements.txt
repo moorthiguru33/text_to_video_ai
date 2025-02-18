@@ -1,0 +1,7 @@
+spacy
+nltk
+plotly
+manim
+deepdreamgenerator
+first-order-model
+dalle

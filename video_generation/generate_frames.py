@@ -1,5 +1,3 @@
-import random
-
 def generate_frames(storyboard):
     frames = []
     for scene in storyboard:

@@ -4,16 +4,22 @@ This project demonstrates how to create a text-to-video AI using open-source too
 
 ## Installation
 
-1. Clone the repositories:
+1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/text_to_video_ai.git
+   git clone https://github.com/moorthiguru33/text_to_video_ai.git
    ```
 
 2. Install the dependencies:
 
    ```sh
    pip install -r requirements.txt
+   ```
+
+3. Download the `en_core_web_sm` model for `spacy`:
+
+   ```sh
+   python -m spacy download en_core_web_sm
    ```
 
 ## Usage
@@ -23,6 +29,8 @@ This project demonstrates how to create a text-to-video AI using open-source too
    ```sh
    python main.py
    ```
+
+2. The generated video will be saved as `output_video.mp4` in the project's root directory.
 
 ## Project Structure
 
